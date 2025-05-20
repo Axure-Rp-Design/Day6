@@ -25,8 +25,7 @@ This project is a **Human-Computer Interaction (HCI) interactive prototype** bui
 ### 🎥 Video
 
 [▶️ Click here to watch the output video](https://github.com/Axure-Rp-Design/Day6/blob/main/output.mp4)
-![Output Video](https://github.com/Axure-Rp-Design/Day6/blob/main/output.mp4)
-> Ensure both `output-image.png` and `output-video.mp4` are placed in the same directory as this README.
+
 
 ## 📁 Files Included
 
@@ -49,7 +48,15 @@ This project is a **Human-Computer Interaction (HCI) interactive prototype** bui
 - Reusable gestures using Fire Event logic
 - Realistic interaction behavior for mobile prototypes
 
+ ---
+ ## 📄 License
+
+This project is licensed under the **All Rights Reserved** license.
+
+You may **not copy, distribute, modify, or reuse** any part of this project without **explicit written permission** from the author.
+
+This prototype is for **educational or internal review purposes only**.
+
 ---
 
 📬 For any suggestions or improvements, feel free to contact the author.
-
