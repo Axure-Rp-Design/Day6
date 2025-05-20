@@ -1,0 +1,105 @@
+Quick Action Buttons
+
+1. Create the top bar
+2. Add Dynamic Panel to add image
+3. Go inside the dynamic panel and add the image container
+4. Add any image
+5. Now add the rectangle at the bottom space to create quick action buttons
+6. Now add the icons like share, heart, info and delete in the rectangle
+7. Now drag and add rectangle to create a share panel
+8. Adjust the border color and border visibility
+9. Add the ellipse for creating share menu then select all and create it as dynamic panel with horizontal scroll
+10. Add Share title "heading 3"
+11. Select rectangle, title, share buttons and create dynamic panel (name: share)
+12. Now pin it to horizontal center and vertical bottom of the browser
+13. Set it to hidden
+14. select the heart icon and add a selected style effect (its in the style effects) and change the fill color to red
+15. drag and add rectangle to create info panel
+16. add heading as info an set the border color and visibility
+17. now create them as dynamic panel; inside the dynamic panel drag rectangle to add text as info content
+18. Now pin it to horizontal center and vertical bottom of the browser
+19. Set it to hidden
+20. drag dynamic panel to create delete panel 
+21. add first button delete(red color), second button to cancel inside the dynamic panel 
+22. set background color for the dynamic panel as transparent black
+23. Now pin it to horizontal center and vertical bottom of the browser
+24. Set it to hidden
+25. move the delete dynamic panel horizontally to another location (name all the dynamic panel)
+
+button interactions....
+
+1. share - show/hide - slideup - 200ms - treat as light box add semi transparent black color
+
+2. heart - click/tap - set selected/checked - this widget - to (toggle)
+
+3. info - 
+
+click/tap - show/hide - slideup (200ms) - 
+
+move the y axis of the image dynamic panel by minus 100 - animation (linear 200ms)
+
+set selected/checked - image dynamic panel - selection state true
+
+now add a condition is selected of this equals value false to determine the position of the image based on its selection state 
+
+then add a "swipe down" interaction to the image dynamic panel - add a condition is selected of this equals value true 
+then 
+move the y axis of the image dynamic panel by 100 - animation (linear 200ms)
+
+then hide the info panel - slide down animation (200ms)
+
+set selected/checked this widget selection state to false
+
+add swipe down interaction to the info dynamic panel - fire event - select the image dynamic panel as the target and choose the swipe down as the event 
+
+4. delete - 
+
+click - show delete panel - slide up (200) - select treat as light box
+
+select delete panel - select delete photo button - click - to hide delete panel - 
+
+
+5. share button - 
+
+click - to hide - share panel 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
